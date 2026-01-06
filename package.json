@@ -14,7 +14,7 @@
     "lint": "eslint \"src/**/*.{js,jsx,ts,tsx}\"",
     "lint:fix": "eslint \"src/**/*.{js,jsx,ts,tsx}\" --fix",
     "dev": "rollup -c rollup.dev.config.js -w",
-    "test:units": "yarn build && npx jest --no-cache",
+    "test:units": "yarn build && jest --no-cache",
     "test": "yarn test:units"
   },
   "repository": "git@github.com:rwalizeFi/local-currency.git",
@@ -53,6 +53,7 @@
     "eslint-plugin-react": "^7.21.5",
     "eslint-plugin-react-hooks": "^4.2.0",
     "fetch-mock": "^9.11.0",
+    "jest": "^28.1.1",
     "jest-environment-jsdom": "^28.1.1",
     "node-fetch": "^2.6.1",
     "regenerator-runtime": "^0.13.7",
